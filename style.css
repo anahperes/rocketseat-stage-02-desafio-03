@@ -1,0 +1,129 @@
+/* BODY SET UP */
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+  }
+  
+  /* PAGE = NAV + MAIN */
+  .page {
+    width: 1008px;
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+  
+  /* NAV SET UP */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+  }
+  
+  /* MAIN = TEXTS + IMG + BUTTON */
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* NAV BAR LINKS */
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+  }
+  
+  /* GENERAL LINKS */
+  a {
+    text-decoration: none;
+  }
+
+  
+  /* NAV BAR LINKS */
+  ul li a {
+    color: #1F1534;
+    opacity: 0.5;
+  }
+  
+  /* NAV BAR LINKS ON HOVER */
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  /* HEADER + NAV BAR LINKS */
+  h1, ul {
+    font-family: "Mulish", sans-serif;
+  }
+  
+  /* HEADER */
+  h1 {
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 400;
+    color: #1f1534;
+    width: 490px;
+  }
+  
+  /* HEADER "exclusivos" */
+  h1 span {
+    color: #89C5CC;
+    font-weight: 700;
+  }
+  
+  /* MAIN PARAGRAPH */
+  section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 40px 0;
+    width: 430px;
+  }
+  
+  /* BUTTON */
+  button {
+    color: #F9F9F9;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    background: #69B99D;
+    border: 0;
+    border-radius: 4px;
+    padding: 14px 32px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  /* BUTTON ON HOVER */
+  button:hover {
+    background: #4EA788;
+  }
+  
+  /* FOOTER */
+  footer {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+    color: #000000;
+  }
+  
+  /* FOOTER LINK */
+  footer a {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  /* BALLS BOTTOM RIGHT */
+  #balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
